@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/iconos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Tienda de Ropa</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header--list">
+            <a href="./index.html"><img src="./assets/img/logo.png.webp" alt="Imagen Logo"
+                    class="header--img-logo"></a>
+            <h1 hidden>Tienda de Ropa</h1>
+            <ul class="acciones--lista">
+                <li class="acciones--item">
+                    <input type="search" name="q" id="search-item" placeholder="Para buscar, enter" hidden>
+                    <img src="./assets/iconos/search.png" alt="Icono busqueda" class="header--img" id="botonBuscar">
+                </li>
+                <li class="acciones--item">
+                    <a href="./pages/formulario.html">
+                        <span hidden>Agregar Item</span>
+                        <img src="./assets/iconos/add_item.png" alt="Icono agregar producto" class="header--img"
+                            id="addProducto"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <h1 class="encabezado">MIS PRODUCTOS</h1>
+        <section class="container">
+
+        </section>
+
+        <button class="button-ver-mas" hidden><img src="./assets/iconos/add_item.png" alt="ver mas"
+                class="icono-button">Ver Más</button>
+        <span class="cant-items"></span>
+    </main>
+    <footer class="footer">
+        <span>&copy; 2024 - Desarrollado por Yoselin</span>
+        
+        </ul>
+
+
+        <script src="./src/js/main.js"></script>
+        <script src="./src/js/productos.js" type="module"></script>
+</body>
+
+</html>

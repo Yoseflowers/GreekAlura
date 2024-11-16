@@ -1,0 +1,24 @@
+{
+  "name": "proyecto_tienda",
+  "version": "1.0.0",
+  "description": "Proyecto Tienda  - para Alura ONE",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx json-server --watch db.json --port 4000",
+    "dev": "npx json-server --watch db.json --port 4000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Alura",
+    "Javascript",
+    "frontend",
+    "tienda",
+    "asincrono",
+    "promesas"
+  ],
+  "author": "Yoselin <yoselinbethania@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

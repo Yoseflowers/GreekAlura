@@ -1,0 +1,45 @@
+{
+    "products":
+  [
+    
+      {
+        "name": "Remera Kamp Ultrarun - AZUL FRANCIA",
+        "price": "200",
+        "image": "https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/avka3ehcet24po0yesij6f0qztev/77e513bcd3762f47919c96f85e400038a39acdbb0d268f51c1fd98fe5327bd96",
+        "id": 1
+      },
+      {
+        "name": "Remera Kamp Ultrarun - NEGRO",
+        "price": "200",
+        "image": "https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/glpu0aqhuprlb6ue4nwcpmkyycnd/77e513bcd3762f47919c96f85e400038a39acdbb0d268f51c1fd98fe5327bd96",
+        "id": 2
+      },
+      {
+        "name": "Remera Kamp Ultrarun - LILA",
+        "price": "200",
+        "image": "https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/smw3pjd5a8t69xjfzza1xlxtlzh8/77e513bcd3762f47919c96f85e400038a39acdbb0d268f51c1fd98fe5327bd96",
+        "id": 3
+      },
+      {
+        "name": "Shorts Salomon 4 Way - NEGRO",
+        "price": "200",
+        "image": "https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/2jruqbsgvdmxzsu3tin5pz93cl17/77e513bcd3762f47919c96f85e400038a39acdbb0d268f51c1fd98fe5327bd96",
+        "id": 4
+      },
+      {
+        "name": "Calza adidas How We Do - MARINO",
+        "price": "200",
+        "image": "https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/22agxk0u7slrnv63qdx2wpku1rrf/77e513bcd3762f47919c96f85e400038a39acdbb0d268f51c1fd98fe5327bd96",
+        "id": 5
+      },
+      {
+        "name": "Campera adidas Terrex Multi Primegreen Hybrid - NEGRO",
+        "price": "200",
+        "image": "https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/8xksellwk0yxst4pr3urtnjuzw10/77e513bcd3762f47919c96f85e400038a39acdbb0d268f51c1fd98fe5327bd96",
+        "id": 6
+      }
+    ]
+
+
+    
+  }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/iconos/favico.png" type="image/x-icon">
+    <link rel=" stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+
+    <title>Carga Productos</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header--list header--list-form">
+            <a href="../index.html"><img src="../assets/img/logo.png.webp" alt="Imagen Logo"
+                    class="header--img-logo"></a>
+            <h1 hidden>Tienda de Ropa</h1>
+            <a href="../index.html"><img class="volver_pagina" src="../assets/iconos/volver_pagina.png"
+                    alt="Volver a pagina principal">
+                Volver</a>
+        </div>
+    </header>
+    <main class="main main--formulario">
+        <!-- formulario carga de productos -->
+        <section class="formulario">
+            <h1>NUEVO PRODUCTO:</h1>
+            <form action="" id="form">
+                <ul class="form--list">
+                    <li class="form--item">
+                        <div class="form--item-content">
+                            <label for="name"><img src="../assets/iconos/tag_descrip.png" alt="Nombre producto"></label>
+                            <input type="text" name="name" id="name" placeholder="Nombre producto" autocomplete="name">
+                        </div>
+                        <span class="form-msj" id="error-name"></span>
+                    </li>
+                    <li class="form--item">
+                        <div class="form--item-content">
+                            <label for="price"><img src="../assets/iconos/price.png" alt="Precio producto"></label>
+                            <input type="text" name="price" id="price" placeholder="100.00" autocomplete="price">
+                        </div>
+                        <span class="form-msj" id="error-price"></span>
+                    </li>
+                    <li class="form--item">
+                        <div class="form--item-content">
+                            <label for="image"><img src="../assets/iconos/imageico.png" alt="Url imagen"></label>
+                            <input type="text" name="image" id="image" placeholder="url imagen" autocomplete="image">
+                        </div>
+                        <span class="form-msj" id="error-url"></span>
+                    </li>
+                </ul>
+                <div class="buttons_section">
+                    <button type="submit" class="add" value="Submit">Agregar</button>
+                    <button type="reset" class="clean" value="Reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <span>&copy; 2024 - Desarrollado por Yoselin</span>
+        
+        </ul>
+    </footer>
+
+
+    <script src="../src/js/main.js"></script>
+    <script src="../src/js/productos.js" type="module"></script>
+</body>
+
+</html>
