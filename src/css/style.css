@@ -43,7 +43,7 @@ input[type=number] {
 /* ESTILOS DE LA PAGINA */
 html,
 body {
-    background-image: url('/assets/img/fondo.webp');
+    background-image: url('../../assets/img/fondo.webp');
     /*fondo */
     background-size: cover;
     background-position: center;
