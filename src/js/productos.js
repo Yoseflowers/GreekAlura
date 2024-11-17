@@ -1,4 +1,4 @@
-import { conectionAPI } from "./conectionAPI.js";
+import { conectionAPI } from "./conectionApi.js";
 
 const main = document.querySelector(".main");
 const section = document.querySelector(".container");
